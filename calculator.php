@@ -66,16 +66,17 @@ function formatTime($hr, $min) {
 }
 
 
-/* given a time (in hours and minutes) and whether the cycles are for waking or sleeping, returns an array of times when a person
- * should go to bed or wake up and associates each time with how many hours of sleep a person will get 
+/* given a time (in hours and minutes) and whether the cycles are for waking or sleeping, 
+ * returns an array of times when a person should go to bed or wake up and associates 
+ * each time with how many hours of sleep a person will get 
  * if they go to bed or wake up at the time */
 function getCycles($wake_or_sleep, $hr, $min) {
 	// if calculating sleep cycle times for wake_up times, add 90 minutes to calculate the cycles
 	if ($wake_or_sleep == "wake") {
 		$time_operation = "add";
 	}
-	// if calculating sleep cycle times for sleep_times, (when to go to sleep, given a wake up time), subtract
-	// 90 minutes to calculate the cycles
+	// if calculating sleep cycle times for sleep_times, (when to go to sleep, given a wake up time), 
+	// subtract 90 minutes to calculate the cycles
 	else {
 		// wake or sleep == sleep
 		$time_operation = "subt";
@@ -101,7 +102,8 @@ function getCycles($wake_or_sleep, $hr, $min) {
 
 
 
-/* given user's current timezone, gets the time and returns an array of times when a person should wake up */
+/* given user's current timezone, gets the time and returns an 	
+ * array of times when a person should wake up */
 function wake_up_times($timezone) {
 	
 	// if javascript has retreived the user's timezone, use that value to set the timezone
