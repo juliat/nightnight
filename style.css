@@ -1,0 +1,144 @@
+/* CSS Resets */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+q,
+small,
+strong,
+sub,
+sup,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+video,
+object {
+  display: block;
+}
+a img {
+  border: 0;
+}
+figure {
+  position: relative;
+}
+figure img {
+  width: 100%;
+}
+img, object, embed {
+  max-width: 100%;
+}
+img {
+  height: auto;
+}
+body {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 1em;
+  background-color: #00031a;
+  font-family: 'Nunito', sans-serif;
+  color: #f2f2f2;
+  line-height: 1.4;
+  font-size: 1.1em;
+}
+body strong {
+  font-weight: bold;
+  color: white;
+}
+body h1, body h1 a {
+  float: left;
+  color: white;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 48px;
+  text-decoration: none;
+}
+body h2 {
+  float: right;
+  color: #c5e0fe;
+  font-weight: normal;
+  font-size: 1.25em;
+}
+body .note {
+  color: #c5e0fe;
+  padding-top: 0.5em;
+}
+body p, body form {
+  clear: both;
+  padding-top: 2.5em;
+}
+body form input[type="submit"] {
+  padding: 0.1em 0.33em;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1em;
+  margin: 0.75em 0 0 -0.1em;
+  color: #00031a;
+}
+body form select {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1em;
+  background-color: black;
+  color: #f2f2f2;
+}
+body form label {
+  font-size: 1.15em;
+  display: block;
+}
+body ul {
+  padding-top: 1.25em;
+  list-style-type: none;
+}
+body ul li {
+  color: #5badff;
+}
+body ul li span {
+  color: #f2f2f2;
+}

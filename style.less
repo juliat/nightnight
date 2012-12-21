@@ -1,0 +1,81 @@
+@import "reset";
+
+@indigo: #00031A;
+@light_grey: #f2f2f2;
+@light_blue: #C5E0FE;
+@blue: #5BADFF;
+
+body {
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 1em;
+	
+	background-color: @indigo;
+	font-family: 'Nunito', sans-serif;
+	color: @light_grey;
+	line-height: 1.4;
+	font-size: 1.1em;
+	
+	strong {
+		font-weight: bold;
+		color: white;
+	}
+	
+	h1, h1 a{
+		float: left;
+		color: white;
+		font-family: 'Annie Use Your Telescope', cursive;
+		font-size: 48px; // 2.75em
+		text-decoration: none;
+	}
+	h2 {
+		float: right;
+		color: @light_blue;
+		font-weight: normal;
+		font-size: 1.25em;
+	}
+	
+	.note {
+		color: @light_blue;
+		padding-top: 0.5em;
+	}
+	
+	p, form {
+		clear: both;
+		padding-top: 2.5em;
+	}
+	
+	form {
+		input[type="submit"] {
+			padding: 0.1em 0.33em;
+			font-family: 'Nunito', sans-serif;
+			font-size: 1.1em;
+			margin: 0.75em 0 0 -0.1em;
+			color: @indigo;
+		}
+		
+		select {
+			font-family: 'Nunito', sans-serif;
+			font-size: 1.1em;
+			background-color: black;
+			color: @light_grey;
+		}
+		label {
+			font-size: 1.15em;
+			display: block;
+		}
+	}
+	
+	ul {
+		padding-top: 1.25em;
+		list-style-type: none;
+		
+		li {
+			color: @blue;
+			span{
+				color: @light_grey;
+			}
+		}
+	}
+	
+}
